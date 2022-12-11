@@ -1,0 +1,27 @@
+.issue{
+    height: calc(100vh - 0px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255,255,255, 0.5),rgba(255, 255, 255, 0.5)), url(http://faqs.web-school.in/wp-content/uploads/2017/05/Issue-Book-640x480.jpg);
+    background-size: cover;
+}
+
+.issueTitle{
+    font-size: 50px;
+}
+.issueForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.issueForm>label{
+    margin: 10px 0;
+}
+.issueInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
